@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "又一个 Node Cli 工具",
   "bin": {
-    "veronica": "./bin/ning-cli.js"
+    "ning": "./bin/ning-cli.js"
   },
   "scripts": {
     "postversion": "git push --tags && git push && npm publish && npm install -g ning-cli"
