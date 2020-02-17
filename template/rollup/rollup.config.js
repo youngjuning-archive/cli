@@ -23,7 +23,7 @@ const config = [
     output: {
       file: 'dist/index.umd.js', // 文件
       format: 'umd', // 格式
-      name: 'iterator', // 生成包名称，代表你的 iife/umd 包
+      name: '{{name}}', // 生成包名称，代表你的 iife/umd 包
       exports: 'named',
       sourcemap: true,
     },
@@ -37,7 +37,7 @@ const config = [
       sourcemap: true,
     },
     plugins,
-  },
+  }
 ]
 
 export default config

@@ -2,7 +2,9 @@
   "name": "{{name}}",
   "version": "{{version}}",
   "description": "{{description}}",
-  "main": "index.ts",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "postversion": "yarn build && git push --tags && git push && npm publish"

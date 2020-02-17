@@ -13,6 +13,8 @@ program
   .action(async (projectName = 'business', options) => {
     if (options.template === 'rollup') {
       initRollup(projectName)
+    } else {
+      console.log('missing required option \'-t, --template <templateName>\'')
     }
   })
 
