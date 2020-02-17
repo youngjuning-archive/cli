@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "description": "又一个 Node Cli 工具",
   "bin": {
-    "ning": "./bin/ning-cli.js"
+    "youngjuning": "./bin/cli.js"
   },
   "scripts": {
-    "postversion": "git push --tags && git push && npm publish && npm install -g ning-cli"
+    "postversion": "git push --tags && git push && npm publish && npm install -g @youngjuning/cli"
   },
-  "homepage": "https://github.com/youngjuning/ning-cli",
+  "homepage": "https://github.com/youngjuning/cli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/youngjuning/ning-cli.git"
+    "url": "https://github.com/youngjuning/cli.git"
   },
   "author": {
     "name": "杨俊宁",

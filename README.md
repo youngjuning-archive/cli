@@ -1,11 +1,11 @@
-# ning-cli
+# @youngjuning/cli
 
 又一个 Node Cli 工具
 
 ## 安装
 
 ```sh
-$ npm i ning-cli -g
+$ npm i @youngjuning/cli -g
 ```
 
 ## 功能
@@ -13,5 +13,5 @@ $ npm i ning-cli -g
 ### 创建一个 rollup 项目
 
 ```sh
-$ ning create <projectName> -t rollup
+$ youngjuning create <projectName> -t rollup
 ```
