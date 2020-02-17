@@ -1,0 +1,64 @@
+{
+  "name": "ning-cli",
+  "version": "0.0.0",
+  "description": "又一个 Node Cli 工具",
+  "bin": {
+    "veronica": "./bin/ning-cli.js"
+  },
+  "scripts": {
+    "postversion": "git push --tags && git push && npm publish && npm install -g ning-cli"
+  },
+  "homepage": "https://github.com/youngjuning/ning-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngjuning/ning-cli.git"
+  },
+  "author": {
+    "name": "杨俊宁",
+    "url": "https://youngjuning.js.org",
+    "email": "1003719811@qq.com"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "exec-sh": "^0.3.4",
+    "global-prefix": "^3.0.0",
+    "handlebars": "^4.5.3",
+    "inquirer": "^7.0.1",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.3",
+    "recursive-readdir": "^2.2.2",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@sishuguojixuefu/eslint-config": "^0.7.3",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@sishuguojixuefu"
+    ]
+  },
+  "eslintIgnore": [
+    "!.eslintrc.js",
+    "!.prettierrc.js",
+    "template"
+  ],
+  "prettier": "@sishuguojixuefu/eslint-config/.prettierrc.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "**/*.{md,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
