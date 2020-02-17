@@ -1,5 +1,5 @@
 {
-  "name": "ning-cli",
+  "name": "@youngjuning/cli",
   "version": "0.1.0",
   "description": "又一个 Node Cli 工具",
   "bin": {
