@@ -6,7 +6,8 @@
     "youngjuning": "./bin/cli.js"
   },
   "scripts": {
-    "postversion": "git push --tags && git push && npm publish && npm install -g @youngjuning/cli"
+    "postversion": "git push --tags && git push && npm publish && npm install -g @youngjuning/cli",
+    "commit": "git cz"
   },
   "homepage": "https://github.com/youngjuning/cli",
   "repository": {
@@ -31,8 +32,13 @@
     "shelljs": "^0.8.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
     "@sishuguojixuefu/eslint-config": "^0.7.3",
-    "husky": "^3.1.0",
+    "commitizen": "^4.2.2",
+    "commitlint-config-cz": "^0.13.2",
+    "cz-customizable": "^6.3.0",
+    "fs-extra": "^9.0.1",
+    "husky": "^4.3.0",
     "lint-staged": "^9.5.0"
   },
   "eslintConfig": {
@@ -48,7 +54,8 @@
   "prettier": "@sishuguojixuefu/eslint-config/.prettierrc.js",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -60,5 +67,10 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
   }
 }

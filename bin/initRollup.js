@@ -56,7 +56,7 @@ module.exports = async projectName => {
         name: projectName,
         ...answers,
       },
-      projectDir,
+      projectDir
     )
     console.log('\r')
     spinner.succeed(success('项目创建成功'))
