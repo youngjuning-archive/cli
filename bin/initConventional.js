@@ -52,6 +52,6 @@ module.exports = async () => {
     }
 
     fs.writeFileSync(`${projectDir}/package.json`, JSON.stringify(config))
-    shell.exec('yarn add @commitlint/cli commitlint-config-cz commitizen cz-customizable husky -D')
+    shell.exec('yarn add commitizen cz-customizable @commitlint/cli commitlint-config-cz husky -D -W')
   })
 }
