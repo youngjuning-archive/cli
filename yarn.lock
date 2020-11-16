@@ -32,8 +32,8 @@
 
 "@commitlint/cli@^11.0.0":
   version "11.0.0"
-  resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-11.0.0.tgz#698199bc52afed50aa28169237758fa14a67b5d3"
-  integrity sha512-YWZWg1DuqqO5Zjh7vUOeSX76vm0FFyz4y0cpGMFhrhvUi5unc4IVfCXZ6337R9zxuBtmveiRuuhQqnRRer+13g==
+  resolved "https://registry.npm.taobao.org/@commitlint/cli/download/@commitlint/cli-11.0.0.tgz#698199bc52afed50aa28169237758fa14a67b5d3"
+  integrity sha1-aYGZvFKv7VCqKBaSN3WPoUpntdM=
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@commitlint/format" "^11.0.0"
@@ -481,8 +481,8 @@ commander@^4.0.1:
 
 commitizen@^4.0.3, commitizen@^4.2.2:
   version "4.2.2"
-  resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.2.2.tgz#1a93dd07208521ea1ebbf832593542dac714cc79"
-  integrity sha512-uz+E6lGsDBDI2mYA4QfOxFeqdWUYwR1ky11YmLgg2BnEEP3YbeejpT4lxzGjkYqumnXr062qTOGavR9NtX/iwQ==
+  resolved "https://registry.npm.taobao.org/commitizen/download/commitizen-4.2.2.tgz#1a93dd07208521ea1ebbf832593542dac714cc79"
+  integrity sha1-GpPdByCFIeoeu/gyWTVC2scUzHk=
   dependencies:
     cachedir "2.2.0"
     cz-conventional-changelog "3.3.0"
@@ -501,8 +501,8 @@ commitizen@^4.0.3, commitizen@^4.2.2:
 
 commitlint-config-cz@^0.13.2:
   version "0.13.2"
-  resolved "https://registry.yarnpkg.com/commitlint-config-cz/-/commitlint-config-cz-0.13.2.tgz#83f98a1217fb9e1e7cedd6d1d4fdb2d1492a867e"
-  integrity sha512-2oN0pXWwDtoKaWW35Haa3xUqWU7761OqM5yu5/UqmklBiznl9WDwoEJ5JIGzHE6qzTmBjAvITToyGNVUcjT/dg==
+  resolved "https://registry.npm.taobao.org/commitlint-config-cz/download/commitlint-config-cz-0.13.2.tgz#83f98a1217fb9e1e7cedd6d1d4fdb2d1492a867e"
+  integrity sha1-g/mKEhf7nh587dbR1P2y0Ukqhn4=
   dependencies:
     app-root-path "~3.0.0"
     lodash.clonedeep "~4.5.0"
@@ -598,8 +598,8 @@ cz-conventional-changelog@3.3.0:
 
 cz-customizable@^6.3.0:
   version "6.3.0"
-  resolved "https://registry.yarnpkg.com/cz-customizable/-/cz-customizable-6.3.0.tgz#1b24e5b84e1fccaa18ad837612b233b8c51d7882"
-  integrity sha512-MWGmWa45v4Ds3NJNNwQc3GCFdjtH3k4ypDWoWkwultMVLf7aOHR9VaXGYGZHLOQS4sMfbkBSjNUYoXCSmLuRSA==
+  resolved "https://registry.npm.taobao.org/cz-customizable/download/cz-customizable-6.3.0.tgz#1b24e5b84e1fccaa18ad837612b233b8c51d7882"
+  integrity sha1-GyTluE4fzKoYrYN2ErIzuMUdeII=
   dependencies:
     editor "1.0.0"
     find-config "^1.0.0"
@@ -1069,8 +1069,8 @@ hosted-git-info@^3.0.6:
 
 husky@^4.3.0:
   version "4.3.0"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-4.3.0.tgz#0b2ec1d66424e9219d359e26a51c58ec5278f0de"
-  integrity sha512-tTMeLCLqSBqnflBZnlVDhpaIMucSGaYyX6855jM4AguGeWCeSzNdb1mfyWduTZ3pe3SJVvVWGL0jO1iKZVPfTA==
+  resolved "https://registry.npm.taobao.org/husky/download/husky-4.3.0.tgz?cache=0&sync_timestamp=1602813638737&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhusky%2Fdownload%2Fhusky-4.3.0.tgz#0b2ec1d66424e9219d359e26a51c58ec5278f0de"
+  integrity sha1-Cy7B1mQk6SGdNZ4mpRxY7FJ48N4=
   dependencies:
     chalk "^4.0.0"
     ci-info "^2.0.0"
