@@ -1,13 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const ncp = require('ncp')
-const chalk = require('chalk')
-const ora = require('ora')
 const shell = require('shelljs')
-
-const error = chalk.red
-const warning = chalk.keyword('orange')
-const success = chalk.greenBright
 
 module.exports = async () => {
   const templateDir = path.resolve(__dirname, '../templates/conventional')
