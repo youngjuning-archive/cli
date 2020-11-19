@@ -9,6 +9,9 @@
     "postversion": "git push --tags && git push && npm publish && npm install -g @youngjuning/cli",
     "commit": "git cz"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "homepage": "https://github.com/youngjuning/cli",
   "repository": {
     "type": "git",
