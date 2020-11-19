@@ -17,3 +17,15 @@ $ npm i @youngjuning/cli -g
 ```sh
 $ youngjuning initConventional
 ```
+
+### 让 React 项目接入 Jest 最佳实践
+
+```sh
+$ youngjuning init-react-jest
+```
+
+### 让 React Native 项目接入 Jest 最佳实践
+
+```sh
+$ youngjuning init-rn-jest
+```
