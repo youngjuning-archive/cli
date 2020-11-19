@@ -6,5 +6,15 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "release:pre": "lerna publish prerelease --pre-dist-tag=rc --preid=rc",
+    "release:prepatch": "lerna publish prepatch --pre-dist-tag=rc --preid=rc",
+    "release:preminor": "lerna publish preminor --pre-dist-tag=rc --preid=rc",
+    "release:premajor": "lerna publish premajor --pre-dist-tag=rc --preid=rc",
+    "release": "lerna publish",
+    "release:patch": "lerna publish patch",
+    "release:minor": "lerna publish minor",
+    "release:major": "lerna publish major"
+  }
 }
