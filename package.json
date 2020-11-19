@@ -1,6 +1,6 @@
 {
   "name": "@youngjuning/cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "又一个 Node Cli 工具",
   "bin": {
     "youngjuning": "./bin/cli.js"
