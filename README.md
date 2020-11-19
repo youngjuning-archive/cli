@@ -15,7 +15,7 @@ $ npm i @youngjuning/cli -g
 > 关于 conventional commit 的教程请参考：[一文搞定规范化Git Commit](https://juejin.im/post/6877462747631026190)
 
 ```sh
-$ youngjuning init-commit
+$ youngjuning init-commitlint
 ```
 
 ### 让 React 项目接入 Jest 最佳实践
@@ -29,3 +29,12 @@ $ youngjuning init-react-jest
 ```sh
 $ youngjuning init-rn-jest
 ```
+
+## TODOS
+
+- [ ] init-eslint
+- [ ] init-rollup
+- [ ] init-lerna
+- [ ] init-rn-redux
+- [ ] init-rn-mobx
+- [ ] react-native 拆包命令
