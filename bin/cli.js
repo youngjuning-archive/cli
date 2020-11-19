@@ -2,16 +2,16 @@
 
 const program = require('commander')
 const pkg = require('../package.json')
-const initCommit = require('./initCommit.js')
+const initCommitLint = require('./initCommitLint.js')
 const initReactJest = require('./initReactJest.js')
 const initReactNativeJest = require('./initReactNativeJest.js')
 
 program.version(pkg.version, '-v, --version').description('又一个 Node Cli 工具')
 
 program
-  .command('init-commit')
+  .command('init-commitlint')
   .description('初始化为符合Conventional Commits的项目')
-  .action(() => initCommit())
+  .action(() => initCommitLint())
 
 program
   .command('init-react-jest')
