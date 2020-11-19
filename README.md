@@ -20,13 +20,13 @@ $ youngjuning init-commitlint
 
 ### 让 React 项目接入 Jest 最佳实践
 
-> 最佳实践介绍请移步[使用Jest和Enzyme进行React%20Native单元测试](https://youngjuning.js.org/2020/10/使用Jest和Enzyme进行React%20Native单元测试/)
-
 ```sh
 $ youngjuning init-react-jest
 ```
 
 ### 让 React Native 项目接入 Jest 最佳实践
+
+> 最佳实践介绍请移步[使用Jest和Enzyme进行React Native单元测试](https://youngjuning.js.org/2020/10/使用Jest和Enzyme进行React%20Native单元测试/)
 
 ```sh
 $ youngjuning init-rn-jest
