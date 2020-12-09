@@ -48,3 +48,4 @@ $ youngjuning init-lerna <name>
 - [ ] init-rn-redux
 - [ ] init-rn-mobx
 - [ ] react-native 拆包命令
+- [ ] 模仿 https://github.com/fengyinchao/vigor-cli
