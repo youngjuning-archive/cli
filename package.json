@@ -54,7 +54,10 @@
     "bin": "youngjuning",
     "plugins": [
       "@oclif/plugin-help"
-    ]
+    ],
+    "macos": {
+      "identifier": "com.cli.youngjuning"
+    }
   },
   "repository": "youngjuning/cli",
   "scripts": {
