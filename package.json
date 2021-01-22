@@ -14,16 +14,21 @@
     "tslib": "^1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
     "@oclif/dev-cli": "^1",
     "@oclif/test": "^1",
     "@types/chai": "^4",
     "@types/mocha": "^5",
     "@types/node": "^10",
     "chai": "^4",
+    "commitizen": "^4.2.3",
+    "commitlint-config-cz": "^0.13.2",
+    "cz-customizable": "^6.3.0",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
     "eslint-config-oclif-typescript": "^0.1",
     "globby": "^10",
+    "husky": "^4.3.8",
     "mocha": "^5",
     "nyc": "^14",
     "ts-node": "^8",
@@ -57,7 +62,18 @@
     "posttest": "eslint . --ext .ts --config .eslintrc",
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
-    "version": "oclif-dev readme && git add README.md"
+    "version": "oclif-dev readme && git add README.md",
+    "commit": "git cz"
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
 }
