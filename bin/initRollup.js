@@ -3,7 +3,7 @@ const ncp = require('ncp')
 const inquirer = require('inquirer')
 const chalk = require('chalk')
 const ora = require('ora')
-const generator = require('../lib/generator.js')
+const generator = require('./generator.js')
 
 const error = chalk.red
 const warning = chalk.keyword('orange')

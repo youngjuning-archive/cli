@@ -54,6 +54,6 @@
     }
   },
   "pkg": {
-    "scripts": ["bin/**/*.js","lib/**/*.js"]
+    "scripts": "bin/**/*.js"
   }
 }
