@@ -250,6 +250,11 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
+"@nsis/language-data@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@nsis/language-data/download/@nsis/language-data-0.7.4.tgz#6b385bcb7a4b191922ed6f8f684842db0f772e25"
+  integrity sha1-azhby3pLGRki7W+PaEhC2w93LiU=
+
 "@oclif/command@^1", "@oclif/command@^1.5.20", "@oclif/command@^1.6.0", "@oclif/command@^1.8.0":
   version "1.8.0"
   resolved "https://registry.npm.taobao.org/@oclif/command/download/@oclif/command-1.8.0.tgz#c1a499b10d26e9d1a611190a81005589accbb339"
@@ -2701,6 +2706,14 @@ make-error@^1.1.1:
   resolved "https://registry.npm.taobao.org/make-error/download/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
   integrity sha1-LrLjfqm2fEiR9oShOUeZr0hM96I=
 
+makensis@^0.23.3:
+  version "0.23.3"
+  resolved "https://registry.npm.taobao.org/makensis/download/makensis-0.23.3.tgz#6efaf5aca1454abac6eab45ab2b380c480c3047f"
+  integrity sha1-bvr1rKFFSrrG6rRasrOAxIDDBH8=
+  dependencies:
+    "@nsis/language-data" "^0.7.4"
+    quoted-string-space-split "^1.0.0"
+
 map-cache@^0.2.2:
   version "0.2.2"
   resolved "https://registry.npm.taobao.org/map-cache/download/map-cache-0.2.2.tgz#c32abd0bd6525d9b051645bb4f26ac5dc98a0dbf"
@@ -3317,6 +3330,11 @@ quick-lru@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npm.taobao.org/quick-lru/download/quick-lru-4.0.1.tgz?cache=0&sync_timestamp=1610610364837&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fquick-lru%2Fdownload%2Fquick-lru-4.0.1.tgz#5b8878f113a58217848c6482026c73e1ba57727f"
   integrity sha1-W4h48ROlgheEjGSCAmxz4bpXcn8=
+
+quoted-string-space-split@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npm.taobao.org/quoted-string-space-split/download/quoted-string-space-split-1.0.0.tgz#d94afd8ae22c3612738532f4996cfd0e4e663b09"
+  integrity sha1-2Ur9iuIsNhJzhTL0mWz9Dk5mOwk=
 
 ramda@^0.26.1:
   version "0.26.1"

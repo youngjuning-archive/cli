@@ -29,6 +29,7 @@
     "eslint-config-oclif-typescript": "^0.1",
     "globby": "^10",
     "husky": "^4.3.8",
+    "makensis": "^0.23.3",
     "mocha": "^5",
     "nyc": "^14",
     "ts-node": "^8",
@@ -63,7 +64,11 @@
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "posttest": "eslint . --ext .ts --config .eslintrc",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "prepack:macos": "rm -rf lib && oclif-dev manifest && oclif-dev readme",
+    "prepack:win": "rm -rf lib && oclif-dev manifest && oclif-dev readme && rm -rf ./tmp/windows-x64-installer && rm -rf ./tmp/windows-x86-installer",
+    "pack:macos": "oclif-dev pack:macos",
+    "pack:win": "oclif-dev pack:win",
+    "pack:linux": "oclif-dev pack:win",
     "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md",
     "commit": "git cz"
