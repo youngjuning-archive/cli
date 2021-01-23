@@ -7,7 +7,8 @@
   },
   "scripts": {
     "postversion": "git push --tags && git push && npm publish && npm install -g @youngjuning/cli",
-    "commit": "git cz"
+    "commit": "git cz",
+    "pkg": "pkg . --out-path ./dist --options max_old_space_size=4096"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -39,7 +40,8 @@
     "commitizen": "^4.2.2",
     "commitlint-config-cz": "^0.13.2",
     "cz-customizable": "^6.3.0",
-    "husky": "^4.3.0"
+    "husky": "^4.3.0",
+    "pkg": "^4.4.9"
   },
   "husky": {
     "hooks": {
@@ -50,5 +52,8 @@
     "commitizen": {
       "path": "cz-customizable"
     }
+  },
+  "pkg": {
+    "scripts": ["bin/**/*.js","lib/**/*.js"]
   }
 }
