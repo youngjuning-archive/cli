@@ -26,7 +26,7 @@ $ youngjuning init-react-jest
 
 ### 让 React Native 项目接入 Jest 最佳实践
 
-> 最佳实践介绍请移步[使用Jest和Enzyme进行React Native单元测试](https://youngjuning.js.org/2020/10/使用Jest和Enzyme进行React%20Native单元测试/)
+> 最佳实践介绍请移步 [使用Jest和Enzyme进行React Native单元测试](https://youngjuning.js.org/#/blog/react-native/%E4%BD%BF%E7%94%A8jest%E5%92%8Cenzyme%E8%BF%9B%E8%A1%8Creact%20native%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95)
 
 ```sh
 $ youngjuning init-rn-jest
@@ -34,7 +34,7 @@ $ youngjuning init-rn-jest
 
 ### 让项目接入 Lerna 最佳实践
 
-> 最佳实践介绍请移步 [基于 lerna 的多包 JavaScript 项目搭建维护笔记](https://youngjuning.js.org/2020/11/%E5%9F%BA%E4%BA%8E-lerna-%E7%9A%84%E5%A4%9A%E5%8C%85-JavaScript-%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA%E7%BB%B4%E6%8A%A4%E7%AC%94%E8%AE%B0/)
+> 最佳实践介绍请移步 [基于 lerna 的多包 JavaScript 项目搭建维护笔记](https://youngjuning.js.org/#/blog/others/%E5%9F%BA%E4%BA%8E%20lerna%20%E7%9A%84%E5%A4%9A%E5%8C%85%20java-script%20%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA)
 
 ```sh
 $ youngjuning init-lerna <name>
